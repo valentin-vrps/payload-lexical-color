@@ -1,0 +1,13 @@
+.editorconfig
+.gitignore
+.npmignore
+.prettierignore
+.prettierrc.js
+node_modules
+screenshots
+src
+build.js
+client.ts
+index.ts
+tsconfig.json
+tsup.config.ts
