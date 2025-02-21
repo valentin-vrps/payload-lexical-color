@@ -17,9 +17,11 @@ export const ParagraphJSXConverter: JSXConverters<SerializedCustomParagraphNode>
 		}
 
 		const style: React.CSSProperties = { paddingTop: '.5rem', paddingBottom: '.5rem' }
-		const match = node.style.match(/background-color: ([^;]+)/)
+		const matchBackgroundColor = node.style.match(/background-color: ([^;]+)/)
+		const matchFontSize = node.style.match(/font-size: ([^;]+)/)
 
-		match && (style.backgroundColor = match[1])
+		matchBackgroundColor && (style.backgroundColor = matchBackgroundColor[1])
+		matchFontSize && (style.fontSize = matchFontSize[1])
 
 		return <p style={style}>{children }</p>
 	},

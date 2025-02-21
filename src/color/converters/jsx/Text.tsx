@@ -37,6 +37,9 @@ export const TextJSXConverter: JSXConverters<SerializedTextNode> = {
 			match = node.style.match(/(?:^|;)\s?color: ([^;]+)/);
 			match && (style.color = match[1]);
 
+			match = node.style.match(/(?:^|;)\s?font-size: ([^;]+)/);
+			match && (style.fontSize = match[1]);
+
 			text = <span style={ style }>{text}</span>
 		}
 

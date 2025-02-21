@@ -1,6 +1,6 @@
 {
 	"name": "payload-lexical-color",
-	"version": "0.1.6",
+	"version": "0.1.9",
 	"description": "Extended lexical editor features for Payload CMS",
 	"type": "module",
 	"main": "build/index.js",

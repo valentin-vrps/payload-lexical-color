@@ -5,3 +5,4 @@ export { default as TextColorFeatureClient } from './src/color/features/textColo
 export { default as HighlightColorFeatureClient } from './src/color/features/highlightColor/feature.client';
 export { default as YoutubeFeatureClient } from './src/embed/features/youtube/feature.client';
 export { default as VimeoFeatureClient } from './src/embed/features/vimeo/feature.client';
+export { default as TextSizeFeatureClient } from './src/color/features/textSize/feature.client';
